@@ -1,7 +1,8 @@
 streamlit
 openai
-langchain
-chromadb==0.4.24
-langchain-community
+langchain==0.1.14
+chromadb==0.4.22
+langchain-community==0.0.34
 tiktoken
 protobuf==3.20.*
+numpy==1.24.4
