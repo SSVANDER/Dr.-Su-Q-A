@@ -59,4 +59,3 @@ if query:
         st.markdown("### 🔍 Sources:")
         for doc in result["source_documents"]:
             st.markdown(f"- `{doc.metadata.get('source', 'Unknown')}`")
-
