@@ -1,4 +1,6 @@
-
+import os
+import subprocess
+subprocess.run(["pip", "install", "numpy==1.24.4", "protobuf==3.20.*", "chromadb==0.4.22", "langchain==0.1.14", "langchain-community==0.0.34", "tiktoken"], check=True)
 import os
 import streamlit as st
 from langchain_community.document_loaders import PyPDFLoader
